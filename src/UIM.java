@@ -15,10 +15,6 @@ public class UIM extends JFrame implements KeyListener{
     TCPCM tcpcm;
     DOM dom;
 
-    public static void main(String[] args){
-        //Start start = new Start();
-    }
-
     public UIM(TCPCM tcpcm, DOM dom){
         super("Start");
 
